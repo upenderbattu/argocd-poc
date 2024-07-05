@@ -3,6 +3,6 @@ on:
 
 jobs:
   build: 
-    runs-on: arc-runner-org # label of org runner
+    runs-on: arc-runner-org 
     steps: 
       - run: echo "Hello build!"
